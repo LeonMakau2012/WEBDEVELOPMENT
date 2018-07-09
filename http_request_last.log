@@ -1,0 +1,201 @@
+## [2018-07-09 10:31:27] Request ##############################
+
+GET /feeds/discussions.rss HTTP/1.1
+Host: www.litecart.net
+User-Agent: LiteCart/2.1.3
+Connection: Close
+
+
+
+## [2018-07-09 10:31:28] Response — 9172 bytes transferred in 0.794 s ##############################
+
+HTTP/1.1 200 OK
+Date: Mon, 09 Jul 2018 08:31:29 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: __cfduid=d6500dcb0088541e8f44b0a80e3bcff1f1531125089; expires=Tue, 09-Jul-19 08:31:29 GMT; path=/; domain=.litecart.net; HttpOnly
+X-Powered-By: LiteCart HQ
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Language: en
+Set-Cookie: LCSESSID=eb3fd7abd79aaf5ab02d7aafd13dd0dd; path=/
+Set-Cookie: language_code=en; expires=Wed, 08-Aug-2018 08:31:29 GMT; Max-Age=2592000; path=/
+Set-Cookie: cart[uid]=5b431d61d67c8; expires=Tue, 09-Jul-2019 08:31:29 GMT; Max-Age=31536000; path=/
+Set-Cookie: currency_code=USD; expires=Wed, 08-Aug-2018 08:31:29 GMT; Max-Age=2592000; path=/
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 43796f42ff46353c-LHR
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>LiteCart Forum Discussions</title>
+    <link>https://www.litecart.net/forums/</link>
+    <description>The most recent forum activity.</description>
+    <language>en</language>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[How do i add Add-ons]]></title>
+      <link>https://www.litecart.net/forums/7/add-ons/8087/how-do-i-add-add-ons</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[pooja]]></author>
+      <pubDate>Sun, 08 Jul 2018 00:42:05 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[How to Turn On Vacation Settings]]></title>
+      <link>https://www.litecart.net/forums/2/general-discussions/8052/how-to-turn-on-vacation-settings</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[breamreaper]]></author>
+      <pubDate>Sat, 07 Jul 2018 09:41:43 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[Wrong stock option code]]></title>
+      <link>https://www.litecart.net/forums/15/errors-and-troubleshooting/8081/wrong-stock-option-code</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[artidens]]></author>
+      <pubDate>Fri, 06 Jul 2018 20:43:55 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[How to Install a vQmod]]></title>
+      <link>https://www.litecart.net/forums/2/general-discussions/8078/how-to-install-a-vqmod</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[freshlix]]></author>
+      <pubDate>Thu, 05 Jul 2018 23:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Regional Domains]]></title>
+      <link>https://www.litecart.net/forums/7/add-ons/8077/regional-domains</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[multispeed]]></author>
+      <pubDate>Thu, 05 Jul 2018 12:17:58 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[Mobile Vs PC]]></title>
+      <link>https://www.litecart.net/forums/12/templates-and-css/8074/mobile-vs-pc</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[marc]]></author>
+      <pubDate>Wed, 04 Jul 2018 22:12:38 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Best practice for a sync module (products,orders)]]></title>
+      <link>https://www.litecart.net/forums/3/installation-and-configuration/8057/best-practice-for-a-sync-module-products-orders</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[litecart_cs]]></author>
+      <pubDate>Wed, 04 Jul 2018 16:10:44 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[How adjusting footer order copy]]></title>
+      <link>https://www.litecart.net/forums/12/templates-and-css/8069/how-adjusting-footer-order-copy</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[tonny]]></author>
+      <pubDate>Wed, 04 Jul 2018 16:03:14 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Display certain price]]></title>
+      <link>https://www.litecart.net/forums/7/add-ons/8061/display-certain-price</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[nejcz]]></author>
+      <pubDate>Wed, 04 Jul 2018 15:57:30 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA[How to exclude only one size and one color?]]></title>
+      <link>https://www.litecart.net/forums/5/feature-requests/8068/how-to-exclude-only-one-size-and-one-color</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[valdeo]]></author>
+      <pubDate>Wed, 04 Jul 2018 09:10:02 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[Wrong tax percentage on invoice]]></title>
+      <link>https://www.litecart.net/forums/15/errors-and-troubleshooting/8060/wrong-tax-percentage-on-invoice</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[multispeed]]></author>
+      <pubDate>Tue, 03 Jul 2018 01:36:53 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[PayPal order confirmation email]]></title>
+      <link>https://www.litecart.net/forums/2/general-discussions/8044/paypal-order-confirmation-email</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[breamreaper]]></author>
+      <pubDate>Sun, 01 Jul 2018 08:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA[Books, pdf or digital products]]></title>
+      <link>https://www.litecart.net/forums/5/feature-requests/5974/books-pdf-or-digital-products</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[navarro_2]]></author>
+      <pubDate>Sun, 01 Jul 2018 08:26:56 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA[Downloadable products possible?]]></title>
+      <link>https://www.litecart.net/forums/5/feature-requests/8049/downloadable-products-possible</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[yarns]]></author>
+      <pubDate>Sun, 01 Jul 2018 04:34:49 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Can't login as admin]]></title>
+      <link>https://www.litecart.net/forums/2/general-discussions/7723/can-t-login-as-admin</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[jc]]></author>
+      <pubDate>Sat, 30 Jun 2018 13:32:52 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[Overriding functions]]></title>
+      <link>https://www.litecart.net/forums/12/templates-and-css/8034/overriding-functions</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[niccol]]></author>
+      <pubDate>Wed, 27 Jun 2018 23:36:13 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA[Multiple option selection with radio buttons]]></title>
+      <link>https://www.litecart.net/forums/5/feature-requests/8042/multiple-option-selection-with-radio-buttons</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[ken_summers]]></author>
+      <pubDate>Wed, 27 Jun 2018 08:46:07 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[Error when edit and save product]]></title>
+      <link>https://www.litecart.net/forums/15/errors-and-troubleshooting/8020/error-when-edit-and-save-product</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[dlth]]></author>
+      <pubDate>Tue, 26 Jun 2018 04:58:54 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Feature Requests]]></category>
+      <title><![CDATA['you bought this' on product page?]]></title>
+      <link>https://www.litecart.net/forums/5/feature-requests/8028/you-bought-this-on-product-page</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[rob_lindman]]></author>
+      <pubDate>Sat, 23 Jun 2018 18:09:24 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Version up via Softaculous]]></title>
+      <link>https://www.litecart.net/forums/3/installation-and-configuration/8032/version-up-via-softaculous</link>
+      <description><![CDATA[]]></description>
+      <author><![CDATA[misty]]></author>
+      <pubDate>Sat, 23 Jun 2018 01:08:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
+
+
