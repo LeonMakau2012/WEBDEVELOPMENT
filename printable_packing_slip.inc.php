@@ -10,7 +10,7 @@
 
   $_page = new view();
   $_page->snippets['order'] = $order->data;
-  echo $_page->stitch('pages/printable_order_copy');
+  echo $_page->stitch('pages/printable_packing_slip');
 
   language::set($session_language);
 
