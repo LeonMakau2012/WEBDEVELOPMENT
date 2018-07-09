@@ -1,0 +1,751 @@
+[05-Jul-2018 08:15:15 Europe/Berlin] Fatal error: 1146 - Table 'commoditypricesearch.lc_languages' doesn't exist
+select * from `CommodityPriceSearch`.`lc_languages`
+where status
+order by priority, name;
+ in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 126 in _error()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 08:33:34 Africa/Cairo] Warning: Error getting source image dimensions (C:\xampp\tmp\php7F37.tmp). in ~/includes/controllers/ctrl_image.inc.php on line 146
+ ← ~/includes/controllers/ctrl_product.inc.php on line 578 in resample()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in add_image()
+ ← ~/admin/index.php on line 125 in include()
+Request: POST /litecart-2.1.3/public_html/admin/?category_id=1&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 08:33:34 Africa/Cairo] Warning: imagecreatefromstring(): Data is not in a recognized format in ~/includes/controllers/ctrl_image.inc.php on line 133
+ ← ~/includes/controllers/ctrl_image.inc.php on line 105 in load_from_string()
+ ← ~/includes/controllers/ctrl_image.inc.php on line 735 in load()
+ ← ~/includes/controllers/ctrl_product.inc.php on line 581 in write()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in add_image()
+ ← ~/admin/index.php on line 125 in include()
+Request: POST /litecart-2.1.3/public_html/admin/?category_id=1&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 08:33:34 Africa/Cairo] Warning: Not a valid image resource in ~/includes/controllers/ctrl_image.inc.php on line 738
+ ← ~/includes/controllers/ctrl_product.inc.php on line 581 in write()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in add_image()
+ ← ~/admin/index.php on line 125 in include()
+Request: POST /litecart-2.1.3/public_html/admin/?category_id=1&app=catalog&doc=edit_product HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 08:36:14 Africa/Cairo] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/classes/email.inc.php on line 164
+ ← ~/pages/create_account.inc.php on line 95 in send()
+ ← ~/index.php on line 35 in include()
+Request: POST /litecart-2.1.3/public_html/en/create_account HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 08:36:14 Africa/Cairo] Warning: Failed sending email to sajal.agrawal1997@gmail.com in ~/includes/classes/email.inc.php on line 165
+ ← ~/pages/create_account.inc.php on line 95 in send()
+ ← ~/index.php on line 35 in include()
+Request: POST /litecart-2.1.3/public_html/en/create_account HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 09:44:40 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/appearance.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=appearance&doc=logotype HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 09:44:40 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/appearance.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 09:46:40 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/languages.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=languages&doc=languages HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 09:46:40 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/languages.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 10:15:08 Africa/Cairo] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/classes/email.inc.php on line 164
+ ← ~/pages/create_account.inc.php on line 95 in send()
+ ← ~/index.php on line 35 in include()
+Request: POST /litecart-2.1.3/public_html/en/create_account HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:15:08 Africa/Cairo] Warning: Failed sending email to sajal.rawal1997@gmail.com in ~/includes/classes/email.inc.php on line 165
+ ← ~/pages/create_account.inc.php on line 95 in send()
+ ← ~/index.php on line 35 in include()
+Request: POST /litecart-2.1.3/public_html/en/create_account HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:20:57 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:21:07 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:21:18 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:22:19 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:22:25 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:30:11 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:31:24 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:31:30 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:33:34 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:45:58 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:49:38 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 10:53:51 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:06:38 Africa/Cairo] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\customers.app\config.inc.php on line 23
+[05-Jul-2018 11:06:43 Africa/Cairo] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\customers.app\config.inc.php on line 23
+[05-Jul-2018 11:09:16 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=shipping HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:16 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:20 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=payment HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:20 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:20 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=order HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:20 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:21 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=order HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:21 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:22 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=order HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:22 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:22 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=order HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:22 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:22 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=order HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:22 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:23 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=order HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:23 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 11:09:24 Africa/Cairo] Warning: require(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /litecart-2.1.3/public_html/admin/?app=modules&doc=customer HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 11:09:24 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/modules.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\index.php on line 100
+[05-Jul-2018 13:06:49 Europe/Berlin] Warning: mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:06:49 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 49
+ ← ~/includes/library/lib_database.inc.php on line 86 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:06:49 Europe/Berlin] Warning: Unknown MySQL character set for charset utf8 in ~/includes/library/lib_database.inc.php on line 87
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:06:49 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 125
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:06:49 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:06:49 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:06:49 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 126 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /litecart-2.1.3/public_html/en/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Warning: mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 49
+ ← ~/includes/library/lib_database.inc.php on line 86 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Warning: Unknown MySQL character set for charset utf8 in ~/includes/library/lib_database.inc.php on line 87
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 125
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:27 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 126 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Warning: mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 49
+ ← ~/includes/library/lib_database.inc.php on line 86 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Warning: Unknown MySQL character set for charset utf8 in ~/includes/library/lib_database.inc.php on line 87
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 125
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:10:55 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 126 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Warning: mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 49
+ ← ~/includes/library/lib_database.inc.php on line 86 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Warning: Unknown MySQL character set for charset utf8 in ~/includes/library/lib_database.inc.php on line 87
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 125
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:11:15 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 126 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/admin/index.php on line 2 in require_once()
+Request: GET /litecart-2.1.3/public_html/admin/?app=translations&doc=search&query=&page=1&languages%5B0%5D=en HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:25:33 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:33:17 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\catalog.app\config.inc.php on line 52
+[05-Jul-2018 13:33:54 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[05-Jul-2018 13:34:28 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[05-Jul-2018 13:34:30 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[05-Jul-2018 13:34:31 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[05-Jul-2018 13:34:56 Africa/Cairo] Fatal error: customers.app/csv is not a valid admin document in ~/admin/index.php on line 124
+Request: GET /litecart-2.1.3/public_html/admin/?app=customers&doc=csv HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[05-Jul-2018 13:35:17 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[05-Jul-2018 13:35:47 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[05-Jul-2018 13:36:07 Africa/Cairo] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\litecart-2.1.3\public_html\admin\translations.app\config.inc.php on line 22
+[09-Jul-2018 10:55:44 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:55:44 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:01 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:01 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:03 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:03 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:04 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:04 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:12 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:57:12 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:58:49 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:58:49 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/addons.widget/addons.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:58:49 Africa/Cairo] Warning: include(C:/xampp/htdocs/litecart-2.1.3/public_html/admin/discussions.widget/discussions.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 10:58:49 Africa/Cairo] Warning: include(): Failed opening 'C:/xampp/htdocs/litecart-2.1.3/public_html/admin/discussions.widget/discussions.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/admin/index.php on line 85
+Request: GET /litecart-2.1.3/public_html/admin/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Warning: mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 49
+ ← ~/includes/library/lib_database.inc.php on line 86 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Warning: Unknown MySQL character set for charset utf8 in ~/includes/library/lib_database.inc.php on line 87
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 125
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 11:19:02 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 225
+ ← ~/includes/library/lib_database.inc.php on line 126 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 121 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 89 in query()
+ ← ~/includes/library/lib_language.inc.php on line 20 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 4 in require_once()
+Request: GET /Priced!-2.1.3/public_html/ HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 14:05:43 Africa/Cairo] Warning: Error getting source image dimensions (C:\xampp\tmp\phpEA7A.tmp). in ~/includes/controllers/ctrl_image.inc.php on line 146
+ ← ~/includes/controllers/ctrl_product.inc.php on line 578 in resample()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in add_image()
+ ← ~/admin/index.php on line 125 in include()
+Request: POST /litecart-2.1.3/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=2 HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 14:05:43 Africa/Cairo] Warning: imagecreatefromstring(): Data is not in a recognized format in ~/includes/controllers/ctrl_image.inc.php on line 133
+ ← ~/includes/controllers/ctrl_image.inc.php on line 105 in load_from_string()
+ ← ~/includes/controllers/ctrl_image.inc.php on line 735 in load()
+ ← ~/includes/controllers/ctrl_product.inc.php on line 581 in write()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in add_image()
+ ← ~/admin/index.php on line 125 in include()
+Request: POST /litecart-2.1.3/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=2 HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
+[09-Jul-2018 14:05:43 Africa/Cairo] Warning: Not a valid image resource in ~/includes/controllers/ctrl_image.inc.php on line 738
+ ← ~/includes/controllers/ctrl_product.inc.php on line 581 in write()
+ ← ~/admin/catalog.app/edit_product.inc.php on line 86 in add_image()
+ ← ~/admin/index.php on line 125 in include()
+Request: POST /litecart-2.1.3/public_html/admin/?app=catalog&doc=edit_product&category_id=0&product_id=2 HTTP/1.1
+Client: ::1 (LAPTOP-KAD2OHB9)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+
